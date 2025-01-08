@@ -7,11 +7,32 @@
 </head>
 
 <body>
-    <h1>Lejonmatare </h1>
 
-    <button onclick="mataLejonet()">Mata lejonet</button>
-    <button onclick="tändSläckLampa()">Tänd/släck lampan</lampa>
-    <button onclick="tömToalett()">Töm toaletten</button>
+    <h1>Hjärtespelet</h1>
+
+    <!-- Visar resultat -->
+    <h2 id="resultat"></h2>
+
+    <p>Välkommen till Hjärtespelet! Här gäller det att gissa rätt ord och samla poäng. I spelet finns sex olika ord du ska gissa. När du har fyllt i alla ord, tryck på knappen <em>"Rätta dina svar"</em> för att få veta hur många rätt du har. Du kommer då att se din poäng högst upp i spelet, och poängen beräknas baserat på rätt ordval och korrekt grammatik. Om du inte fick full pott, kan du försöka igen! Antingen rensar du dina svar genom att trycka på knappen <em>"Spela igen"</em> eller så byter du ut dina svar och tryck på <em>"Rätta dina svar"</em> igen för att rätta dem på nytt.</p>
+
+    <p><strong>Lycka till!</strong></p>
+
+    <!-- Spelplan -->
+    <p>Nu drar vi ut på <input type="text" id="input1" aria-label="Fyll i ordet för rövarstråt"></p>
+    <p>Ja vi ska ut och röva</p>
+    <p>Men bara sånt vi <input type="text" id="input2" aria-label="Fyll i ordet för kommer"> åt</p>
+    <p>och sånt vi kan behöva</p>
+    <p>Nu är det mörkt kring <input type="text" id="input3" aria-label="Fyll i ordet för stad och land"></p>
+    <p>nu sover folk så gott dom kan</p>
+    <p>Nu drar vi vår väg med vår säck och vår spann</p>
+    <p>både <input type="text" id="input4" aria-label="Fyll i ordet för Kasper"> och <input type="text" id="input5" aria-label="Fyll i ordet för Jesper"> och <input type="text" id="input6" aria-label="Fyll i ordet för Jonatan"></p>
+
+    <!-- Knapp för att rätta svar -->
+    <button onclick="rättaSvar()">Rätta dina svar</button>
+
+    <!-- Knapp för att spela igen -->
+    <button onclick="spelaIgen()">Spela igen</button>
+
 
     <script src="hjartespelet.js"></script>
 
