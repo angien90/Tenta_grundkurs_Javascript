@@ -56,3 +56,7 @@ nu sover folk så gott dom kan
 Nu drar vi vår väg med vår säck och vår spann
 både _____ (Kasper) och ______ (Jesper) och _______ (Jonatan)
 ```
+
+## Betyg 
+![image](https://github.com/user-attachments/assets/3b59dfbf-c26e-49cf-b46e-0052d1fc259f)
+Max var VG och fick G pga. hälsoskäl
